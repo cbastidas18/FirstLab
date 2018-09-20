@@ -1,0 +1,49 @@
+#board {
+    text-align: center;
+    padding: 3em;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.middle {
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.left {
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
+
+
+.top, .left, .middle, .right {
+    float: left;
+    height: 100px;
+    width: 100px;
+
+}
+
+.middle, .left, .center, .right {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.bottom, .left, .center, .right {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
